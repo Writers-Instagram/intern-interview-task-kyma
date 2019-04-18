@@ -41,6 +41,9 @@ The expected outcome is a [pull request](https://github.com/Writers-Instagram/in
 
 Grouping and security units which allows you to divide the cluster into smaller units are called Namespaces. They can help to organize objects. Can be used for different purposes, such as development and testing.
 
+### Creating Namespace in Kyma
+
+Use this command to create Namespace in a single step:
 ```
 cat <<EOF | kubectl create -f -
 apiVersion: v1
@@ -52,3 +55,4 @@ metadata:
 EOF
 ```
 
+>**NOTE:** Marking Namespace with ```env: "true"``` label makes it available for users
