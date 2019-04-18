@@ -39,7 +39,7 @@ The expected outcome is a [pull request](https://github.com/Writers-Instagram/in
 
 ## Namespaces
 
-Grouping and security units which allows you to divide the cluster into smaller units are called Namespaces. They can help to organize objects. Can be used for different purposes, such as development and testing.
+Grouping and security units which allows you to divide the cluster into smaller units are called Namespaces. They help to organize objects. You can use them for different purposes, such as development and testing.
 
 ### Creating Namespace in Kyma
 
