@@ -41,7 +41,8 @@ The expected outcome is a [pull request](https://github.com/Writers-Instagram/in
 
 Grouping and security units which allows you to divide the cluster into smaller units are called Namespaces. They can help to organize objects. Can be used for different purposes, such as development and testing.
 
-```cat <<EOF | kubectl create -f -
+```
+cat <<EOF | kubectl create -f -
 apiVersion: v1
 kind: Namespace
 metadata:
