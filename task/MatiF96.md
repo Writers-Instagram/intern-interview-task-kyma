@@ -17,7 +17,7 @@ Follow these steps to create a ClusterRoleBinding and bind the group to the sele
 
 Grouping and security units which allows you to divide the cluster into smaller units are called Namespaces. They help to organize objects. You can use them for different purposes, such as development and testing.
 
-This example shows you how to easily create Namespace in Kyma:
+This example shows user how to easily create Namespace in Kyma:
 ```
 cat <<EOF | kubectl create -f -
 apiVersion: v1
