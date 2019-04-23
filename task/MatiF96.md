@@ -3,7 +3,7 @@
 ## Create ClusterRoleBinding
 Follow these steps to create a ClusterRoleBinding and bind the group to the selected role:
 1. Access the [Kyma cluster](https://console.recruitment.kyma.pro/) using your credentials.
->**NOTE:** The password and email are encoded with base64. [Decode](https://www.base64decode.org/) the credentials before use.
+  >**NOTE:** The password and email are encoded with base64. [Decode](https://www.base64decode.org/) the credentials before use.
 
 2. Go to the **Settings** menu, select **Global Permissions**
 
