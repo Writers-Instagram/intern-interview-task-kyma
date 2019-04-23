@@ -5,11 +5,11 @@ Follow these steps to create a ClusterRoleBinding and bind the group to the sele
 1. Access the [Kyma cluster](https://console.recruitment.kyma.pro/) using your credentials.
   >**NOTE:** The password and email are encoded with base64. [Decode](https://www.base64decode.org/) the credentials before use.
 
-2. Go to the **Settings** menu, select **Global Permissions**
+2. Go to the **Settings** menu, select **Global Permissions**.
 
-3. Select **Cluster Role Bindings** tab and click **Create Binding**
+3. Select **Cluster Role Bindings** tab and click **Create Binding**.
 
-4. Enter *User Group* and select *Role* from the list. Then click **Save**
+4. Enter *User Group* and select *Role* from the list. Then click **Save**.
 
 
 
