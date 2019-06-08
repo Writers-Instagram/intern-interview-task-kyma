@@ -27,12 +27,12 @@ This allows for increasing the security and organization of your cluster by divi
 Those units can then be used for different purposes, such as development and testing.  
 Namespaces are great for environments with many users from multiple teams, or projects.
 
-// [k namespaces][kyma namespaces]
+// [k namespaces][kyma namespaces]  
 
-// Kyma and Kubernetes rely heavily on Namespaces. 
-// Conduct research and create a short definition of what a Namespace is. 
-// **In your definition include an example that illustrates how users can use Namespaces in their implementations.** 
-// Introduce the definition with an H2 heading. 
+// Kyma and Kubernetes rely heavily on Namespaces.   
+// Conduct research and create a short definition of what a Namespace is.  
+// **In your definition include an example that illustrates how users can use Namespaces in their implementations.**  
+// Introduce the definition with an H2 heading.  
 
 [kyma namespaces]:https://kyma-project.io/docs/latest/root/kyma#details-namespaces
 
