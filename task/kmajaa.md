@@ -1,4 +1,4 @@
-## Bind the **edit** role to the **recruitment** group
+## Bind the edit role to the recruitment group
 
 To create a Cluster Role Binding you must first log in to the [Kyma cluster](https://console.recruitment.kyma.pro/).  
 Once you are logged in, follow the instructions below:
@@ -25,14 +25,4 @@ A Namespace is one of multiple virtual clusters backed by the same physical clus
 It provides a scope for names of resources, which must be unique within a Namespace, but not across Namespaces. 
 This allows for increasing the security and organization of your cluster by dividing it into smaller units. 
 Those units can then be used for different purposes, such as development and testing.  
-Namespaces are great for environments with many users from multiple teams, or projects.
-
-// [k namespaces][kyma namespaces]  
-
-// Kyma and Kubernetes rely heavily on Namespaces.   
-// Conduct research and create a short definition of what a Namespace is.  
-// **In your definition include an example that illustrates how users can use Namespaces in their implementations.**  
-// Introduce the definition with an H2 heading.  
-
-[kyma namespaces]:https://kyma-project.io/docs/latest/root/kyma#details-namespaces
-
+Namespaces are intended for environments with many users from multiple teams, or projects, and Kubernetes and Kyma rely heavily on them. 
