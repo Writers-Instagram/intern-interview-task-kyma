@@ -24,5 +24,10 @@ Your newly created binding now appears in the list of bindings in _Cluster Role 
 A Namespace is one of multiple virtual clusters backed by the same physical cluster.
 It provides a scope for names of resources, which must be unique within a Namespace, but not across Namespaces. 
 This allows for increasing the security and organization of your cluster by dividing it into smaller units. 
-Those units can then be used for different purposes, such as development and testing.  
-Namespaces are intended for environments with many users from multiple teams, or projects, and Kubernetes and Kyma rely heavily on them. 
+These units can then be used for different purposes, such as development and testing.  
+Namespaces are intended for environments with many users from multiple teams, or projects, and Kubernetes and Kyma rely heavily on them.
+
+Kyma comes with three Namespaces available for users, as well as four default Kyma Namespaces for system-related purposes.  
+The default Namespaces are: `kyma-system`, `kyma-integration`, `kyma-installer`, and `istio-system`, and the user cannot modify or remove them.  
+The pre-configured Namespaces for users are: `production`, `qa`, and `stage`, and they are ready to use.  
+
