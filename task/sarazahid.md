@@ -9,3 +9,11 @@ See [this](https://kyma-project.io/docs/components/security/#overview-overview) 
 
 To create a ClusterRoleBinding following these steps:
 
+![ClusterRoleBinding](https://github.com/SaraZahid/intern-interview-task-kyma/blob/master/task/assets/screenshot-clusterrolebinding.png)
+
+1. Open your Kyma cluster, Click > **Global Permissions**
+2. Click > **Create Binding**
+3. Click > **User Group**
+4. Type **recruitment** in User Group name
+5. Select **edit** role 
+6. Click > **Save**
