@@ -27,7 +27,7 @@ It is not necessary to use multiple namespaces just to separate slightly differe
 Kubernetes resources, such as pods and Deployments, are logically grouped into a namespace.
 
 
-
+>**NOTE:** Read the [kubernetes documentation](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/) to learn more about Namespaces.
 
 
 ddd
