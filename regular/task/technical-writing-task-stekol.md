@@ -20,7 +20,7 @@ The name of ClusterRoleBinding object must be a valid path segment name.
 5. Select the option _**User Group**_ and enter "recruitment" in the _**User Group**_ box.  
  | **Tip**: The name must consist of lower case alphanumeric characters, dashes or dots, and must start and end with an alphanumeric character (e.g. 'my-name'). 
 6. In the _**Kind**_ drop down menu, select "ClusterRole".
-7. Select "kyma-edit" in the _**Role**_ drop down menu .
+7. Select "kyma-edit" in the _**Role**_ drop down menu.
 8. Click on _**Save**_ to create a ClusterRoleBinding.
 
 
