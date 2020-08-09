@@ -1,20 +1,14 @@
 ## Create a ClusterRoleBinding
-ClusterRoleBinding grants the permissions defined in a role 
-to a user or set of users. 
-holds a list of subjects (users, groups, or service accounts), 
-and a reference to the role being granted. 
-A ClusterRoleBinding grants that access cluster-wide.
+ClusterRoleBinding grants a user or a group of users the permissions defined in a role, and it grants that access to all the namespaces in a cluster. 
+It holds a list of subjects (users, groups etc.), and a reference to the role being granted.
+If you want to bind a ClusterRole to all the namespaces in your cluster, you use a ClusterRoleBinding.
 
-Alternatively, A RoleBinding can reference a ClusterRole and bind that ClusterRole to the namespace of the RoleBinding.
 
-If you want to bind a ClusterRole to all the namespaces in your cluster, you use a ClusterRoleBinding. 
-
-The name of ClusterRoleBinding object must be a valid path segment name.  
 
 ### To create a ClusterRoleBinding  
 
 1. Enter your credentials and log into the Kyma cluster.  
-2. Select the desired namespace.
+2. Select a namespace.
 3. Click the _**Permissions**_ tab in the side bar.
 4. Click on _**Create Binding**_ in the right corner of the _**Role Bindings**_ tab.
 5. Select the option _**User Group**_ and enter "recruitment" in the _**User Group**_ box.  
