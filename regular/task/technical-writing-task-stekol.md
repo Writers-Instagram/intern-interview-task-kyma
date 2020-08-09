@@ -22,4 +22,4 @@ To bind a ClusterRole to all the namespaces in your cluster, use a ClusterRoleBi
 ## Namespace
 
 A namespace is a cluster of names. It ensures that all the objects of a specific cluster have unique names so that they can be clearly identified. 
-Namespaces are a way of sharing cluster resources among multiple users. This way, users across multiple teams can work on the same project.
+Namespaces are a way of sharing cluster resources among multiple users. This way, users across multiple teams can access these resources and work on the same project.
