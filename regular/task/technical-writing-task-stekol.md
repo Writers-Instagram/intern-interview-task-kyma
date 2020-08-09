@@ -14,7 +14,7 @@ The name of ClusterRoleBinding object must be a valid path segment name.
 ### To create a ClusterRoleBinding  
 
 1. Enter your credentials and log into the Kyma cluster.  
-2. Select the desired namespace.
+2. Select the desired namesspace.
 3. Click the _**Permissions**_ tab in the side bar.
 4. Click on _**Create Binding**_ in the right corner of the _**Role Bindings**_ tab.
 5. Select the option _**User Group**_ and enter "recruitment" in the _**User Group**_ box.  
