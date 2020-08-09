@@ -1,9 +1,7 @@
 ## Create a ClusterRoleBinding
 ClusterRoleBinding grants a user or a group of users the permissions defined in a role, and it grants that access to all the namespaces in a cluster. 
 It holds a list of subjects (users, groups etc.), and a reference to the role being granted.
-If you want to bind a ClusterRole to all the namespaces in your cluster, you use a ClusterRoleBinding.
-
-
+If you want to bind a ClusterRole to all the namespaces in your cluster, you use a ClusterRoleBinding.  
 
 ### To create a ClusterRoleBinding  
 
@@ -18,6 +16,6 @@ If you want to bind a ClusterRole to all the namespaces in your cluster, you use
 8. Click on _**Save**_ to create a ClusterRoleBinding.
 
 
-Namespace
+## Namespace
 
 
