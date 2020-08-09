@@ -1,7 +1,7 @@
 ## Create a ClusterRoleBinding
 ClusterRoleBinding grants a user or a group of users the permissions defined in a role.
 It holds a list of subjects (users, groups etc.), and a reference to the role being granted.
-A ClusterRoleBinding grants permissions to all the namespaces of a cluster. 
+A ClusterRoleBinding grants permissions to all namespaces of a cluster. 
 
 To bind a ClusterRole to all the namespaces in your cluster, you use a ClusterRoleBinding.  
 
@@ -18,6 +18,12 @@ To bind a ClusterRole to all the namespaces in your cluster, you use a ClusterRo
 8. Click on _**Save**_ to create a ClusterRoleBinding.
 
 
+
 ## Namespace
 
+A namespace is a set of names that are used to identify and refer to objects.  
+A namespace ensures that all the objects of a specific set have unique names so that they can be clearly identified. 
 
+Namespaces are commonly structured as hierarchies to allow reuse of names in different contexts. As an analogy, consider a system of naming of people where each person has a given name, as well as a family name shared with their relatives. If the first names of family members are unique only within each family, then each person can be uniquely identified by the combination of first name and family name; there is only one Jane Doe, though there may be many Janes. Within the namespace of the Doe family, just "Jane" suffices to unambiguously designate this person, while within the "global" namespace of all people, the full name must be used.
+
+The namespace keyword is used to declare a scope that contains a set of related objects. You can use a namespace to organize code elements and to create globally unique types.
