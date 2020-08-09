@@ -1,14 +1,15 @@
 ## Create a ClusterRoleBinding
-ClusterRoleBinding grants the permissions defined in a role to a user or set of users. holds a list of subjects (users, groups, or service accounts), 
-and a reference to the role being granted. A ClusterRoleBinding grants that access cluster-wide.
+ClusterRoleBinding grants the permissions defined in a role 
+to a user or set of users. 
+holds a list of subjects (users, groups, or service accounts), 
+and a reference to the role being granted. 
+A ClusterRoleBinding grants that access cluster-wide.
 
 Alternatively, A RoleBinding can reference a ClusterRole and bind that ClusterRole to the namespace of the RoleBinding.
 
 If you want to bind a ClusterRole to all the namespaces in your cluster, you use a ClusterRoleBinding. 
 
-The name of a RoleBinding or 
-
-ClusterRoleBinding object must be a valid path segment name.  
+The name of ClusterRoleBinding object must be a valid path segment name.  
 
 ### To create a ClusterRoleBinding  
 
