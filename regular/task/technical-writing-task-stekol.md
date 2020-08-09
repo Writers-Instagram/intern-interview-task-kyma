@@ -21,7 +21,7 @@ The name of ClusterRoleBinding object must be a valid path segment name.
  | **Tip**: The name must consist of lower case alphanumeric characters, dashes or dots, and must start and end with an alphanumeric character (e.g. 'my-name'). 
 6. In the _**Kind**_ drop down menu, select "ClusterRole".
 7. Select "kyma-edit" in the _**Role**_ drop down menu .
-8. Click on **Save**_ to create a ClusterRoleBinding.
+8. Click on _**Save**_ to create a ClusterRoleBinding.
 
 
 Namespace
