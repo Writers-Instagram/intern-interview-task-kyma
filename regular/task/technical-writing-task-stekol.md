@@ -9,11 +9,10 @@ A ClusterRoleBinding grants permissions to all namespaces of a cluster.
 2. Select a namespace.
 3. Click the _**Permissions**_ tab in the side bar.
 4. Click on _**Create Binding**_ in the _**Role Bindings**_ task bar.
-5. Select the option _**User Group**_,
+5. Select the option _**User Group**_.
 6. Enter the name "recruitment" in the _**User Group**_ box.  
  | _**Tip**_: The name must consist of lower case alphanumeric characters, dashes or dots, and must start and end with an alphanumeric character (e.g. 'my-name').
-7. In the _**Kind**_ drop down menu, select "ClusterRole".
-8. Select "kyma-edit" in the _**Role**_ drop down menu.
+7. Select "ClusterRole" in the _**Kind**_ drop down menu, then select "kyma-edit" in the _**Role**_ drop down menu.
 9. Click on _**Save**_ to create a ClusterRoleBinding.
 
 
