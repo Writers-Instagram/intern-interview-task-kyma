@@ -1,6 +1,6 @@
 ## Create a ClusterRoleBinding
 ClusterRoleBinding grants a user or a group of users the permissions defined in a role.  
-It holds a list of subjects (users, groups, etc.), and a reference to the role being granted.  
+It holds a list of subjects (users, groups, etc.), as well as a reference to the role being granted.  
 A ClusterRoleBinding grants permissions to all namespaces of a cluster.  
 
 ### To create a new ClusterRoleBinding  
@@ -21,4 +21,4 @@ A ClusterRoleBinding grants permissions to all namespaces of a cluster.
 ## Namespace
 
 A namespace is a cluster of names. It ensures that all the objects of a cluster have unique names so that they can be clearly identified. 
-Namespaces are a way of sharing cluster resources among multiple users. This way, users across multiple teams can access these resources and work on the same projects.
+Namespaces are a way of sharing cluster resources among multiple users. Users across multiple teams can access these resources and work on the same projects.
