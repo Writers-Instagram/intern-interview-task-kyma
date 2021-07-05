@@ -17,7 +17,7 @@ Access the Kyma cluster prepared for the recruitment process. Use the provided c
 
 ## Step 3
 
-Explore the Kyma cluster. Create a ClusterRoleBinding and bind the **recruitment** group to the **kyma-edit** ClusterRole. Create a step-by-step instruction for users that want to achieve this exact goal. Introduce the instruction with an `H2` heading.
+Explore the Kyma cluster. Create a ClusterRoleBinding and bind the **your_initials_recruitment** group to the **kyma-edit** ClusterRole. Create a step-by-step instruction for users that want to achieve this exact goal. Introduce the instruction with an `H2` heading.
 
 When writing the instructions, follow the [Kyma guidelines for creating content](https://github.com/kyma-project/community/tree/master/guidelines/content-guidelines), the [Microsoft Manual of Style](https://docs.microsoft.com/en-us/style-guide/welcome/), and reference the writing style seen on [kyma-project.io](https://kyma-project.io/docs/) to create a piece that could become a part of product documentation.
 
